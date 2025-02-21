@@ -12,6 +12,7 @@ import "swiper/css/thumbs";
 import "./styles.css";
 
 
+
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 function Sweeper() {
