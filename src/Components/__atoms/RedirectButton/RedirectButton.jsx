@@ -4,7 +4,7 @@ const RedirectButton = () => {
     };
   
     return (
-      <button onClick={handleClick} className=" w-[312px] h-[56px] bg-[#FF7E1B] text-white rounded-[10px]">
+      <button onClick={handleClick} className=" w-[312px] h-[56px] cursor-pointer bg-[#FF7E1B] font-bold text-white rounded-[10px] max-sm:w-[270px]">
        Checkout
       </button>
     );

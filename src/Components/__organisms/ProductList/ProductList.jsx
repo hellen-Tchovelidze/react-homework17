@@ -47,11 +47,11 @@ const ProductList = () => {
   return (
     <div className="h-screen flex justify-around flex-col">
       <Header cart={cart} setCart={setCart} />
-      <div className="flex justify-around items-center">
-        <div>
+      <div className="flex justify-around items-center max-gl:flex-col">
+        <div className=" max-lg:mt-4">
           <Sweeper />
         </div>
-        <div className="flex justify-between items-start flex-col w-[445px] h-[426px]">
+        <div className="flex justify-between items-start flex-col w-[445px] h-[426px] max-lg:w-[407px] max-sm:w-[350px]">
           <ProductDiscription />
           <PriceUI />
           {products.map((product) => (
