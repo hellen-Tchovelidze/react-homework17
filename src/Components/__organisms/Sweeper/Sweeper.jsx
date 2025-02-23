@@ -35,7 +35,7 @@ function ImageSlider() {
             <img
               src={img}
               alt={`thumb-${index + 1}`}
-              className="w-[80px] h-[80px] object-cover rounded-xl max-sm:w-[70px]"
+              className="w-[80px] h-[80px] object-cover rounded-xl max-sm:hidden"
             />
           </div>
         ))}
